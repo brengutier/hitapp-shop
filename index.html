@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    
+    <link rel="icon" type="image/png" sizes="16x16"  href="./img/hit-favicon.png">
+
+    <!--CSS BS / CSS TOASTIFY / CSS PROPIO-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">            
+                <div class="container-titulo">
+                    <a href=""><img src="./img/hit-logo.png" alt="logo-hit" width="50px"></a>
+                </div>
+              
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="header-text link-light active" href="index.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-text link-light" href="./pages/carrito.html">Carrito</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="titulos-h2">Tienda</h2>
+
+            <!-- Cards de Productos -->
+            <div id="catalogo" class="tienda-grid">
+             
+                <!-- Productos cargados desde JS -->
+                
+            </div>
+        </div>        
+    </main>
+
+    <footer>
+		<div class="container">
+            <img src="./img/hit-logo-color.png" class="logo-hit" alt="logo hit">
+			<ul class="list-inline">			
+	        	<li class="list-inline-item footer-menu">	
+	       			<a href="index.html">Tienda</a>
+	       		</li>	
+	       		<li class="list-inline-item footer-menu">	
+	        		<a href="./pages/carrito.html">Carrito</a>
+	        	</li>
+			</ul>
+			<ul class="apps">
+				<li><a href="" target="_blank"><img src="./img/appstore.png" alt="app store" height="35px"></a></li>
+				<li><a href="" target="_blank"><img src="./img/googleplay.png" alt="google play store" height="35px"></a></li>
+			</ul>
+			<small id="copyright">HitApp® - Todos los derechos reservados.</small>
+		</div>
+	</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/tienda.js"></script>
+</body>
+</html>
