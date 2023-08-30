@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+		"nombre": "Cuadro Abstracto",
+		"precio": 5000,
+		"stock": 15,
+		"img": "img/cuadro-abstracto.jpg"
+    },
+    {
+        "id": 2,
+		"nombre": "Silla Eames",
+		"precio": 7500,
+		"stock": 70,
+		"img": "img/silla-eames.jpg"
+    },
+    {
+        "id": 3,
+		"nombre": "Set Vajilla Natural",
+		"precio": 10500,
+		"stock": 100,
+		"img": "img/set-vajilla-natural.jpg"
+    },
+    {
+        "id": 4,
+		"nombre": "Sofa Individual Soft",
+		"precio": 4300,
+		"stock": 30,
+		"img": "img/sofa-individual.jpg"
+    },
+    {
+        "id": 5,
+		"nombre": "Mesa Atomic",
+		"precio": 15000,
+		"stock": 15,
+		"img": "img/mesa-atomic.jpg"
+    },
+    {
+        "id": 6,
+		"nombre": "Tazas Black&White",
+		"precio": 2400,
+		"stock": 100,
+		"img": "img/tazas-byn.jpg"
+    },
+    {
+        "id": 7,
+		"nombre": "Cuadro Explore",
+		"precio": 3000,
+		"stock": 40,
+		"img": "img/cuadro-explore.jpg"
+    },
+    {
+        "id": 8,
+		"nombre": "Platos Ceramica Blue",
+		"precio": 2500,
+		"stock": 150,
+		"img": "img/platos-artesanales.jpg"
+    },
+    {
+        "id": 9,
+		"nombre": "Macetas Terra",
+		"precio": 7100,
+		"stock": 150,
+		"img": "img/macetas-terra.jpg"
+    },
+    {
+        "id": 10,
+		"nombre": "Cuadro Verde",
+		"precio": 6700,
+		"stock": 50,
+		"img": "img/cuadro-verde.jpg"
+    }
+]
