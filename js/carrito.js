@@ -29,6 +29,21 @@ const renderCarrito = () => {
 			const tdCantidadDOM = document.createElement('td')
 			tdCantidadDOM.className = 'unidades-DOM'
 
+			const botonSumarDOM = document.createElement('button')
+			botonSumarDOM.innerHTML = '+'
+			botonSumarDOM.className = 'boton-sumar-restar'
+			botonSumarDOM.addEventListener('click', () => {
+				item.cantidad++
+				localStorage.setItem('carrito', JSON.stringify(carrito))
+				renderCarrito()
+			})
+			tdCantidadDOM.appendChild(botonSumarDOM)
+
+			const unidadesDOM = document.createElement('p')
+			unidadesDOM.className = 'unidades-p-DOM'
+			unidadesDOM.innerHTML = `${item.cantidad}`
+			tdCantidadDOM.appendChild(unidadesDOM)
+
 			const botonRestarDOM = document.createElement('button')
 			botonRestarDOM.innerHTML = '-'
 			botonRestarDOM.className = 'boton-sumar-restar'
@@ -42,21 +57,6 @@ const renderCarrito = () => {
 				renderCarrito()
 			})
 			tdCantidadDOM.appendChild(botonRestarDOM)
-
-			const unidadesDOM = document.createElement('p')
-			unidadesDOM.className = 'unidades-p-DOM'
-			unidadesDOM.innerHTML = `${item.cantidad}`
-			tdCantidadDOM.appendChild(unidadesDOM)
-			
-			const botonSumarDOM = document.createElement('button')
-			botonSumarDOM.innerHTML = '+'
-			botonSumarDOM.className = 'boton-sumar-restar'
-			botonSumarDOM.addEventListener('click', () => {
-				item.cantidad++
-				localStorage.setItem('carrito', JSON.stringify(carrito))
-				renderCarrito()
-			})
-			tdCantidadDOM.appendChild(botonSumarDOM)
 			
 			trItemDOM.appendChild(tdCantidadDOM)
 
